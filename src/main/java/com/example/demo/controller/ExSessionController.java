@@ -22,7 +22,7 @@ public class ExSessionController {
     public String inputLog(String adress, String pass){
         if ("test@example.com".equals(adress) && "123".equals(pass)) {
         exsession.setAttribute("hoge", adress );
-        exsession.setAttribute("huga", pass);
+        exsession.setAttribute("fuga", pass);
         // exsession.setAttribute("fuga",pass );
     
        return "exsession-result";}
